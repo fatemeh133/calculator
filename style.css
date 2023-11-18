@@ -22,6 +22,7 @@ body {
   font-size: 30px;
   text-align: right;
   font-weight: bold;
+  overflow-x: hidden;
 }
 .cal-body {
   background-color: #252d44;
