@@ -32,9 +32,8 @@ btnEqual.addEventListener("click", function EQUAL() {
   // Replace "x" with "*"
   let expression = calHead.textContent.replace(/x/g, "*");
 
-
   // Use eval to evaluate the expression and update calHead
-  calHead.textContent = eval(expression);
+  calHead.textContent = window.eval(expression);
 });
 
 // Add operators to the calculator head
